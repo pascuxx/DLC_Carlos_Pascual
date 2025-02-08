@@ -1,3 +1,4 @@
+df_mush = pd.read_csv("mushrooms.csv")
 # gráfico de barras con los porcentajes de habtitats diferentes
 df_mush['habitat'].value_counts().plot(kind='bar', color = "orange")
 plt.xlabel("Habitat")
