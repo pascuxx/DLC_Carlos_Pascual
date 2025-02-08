@@ -1,5 +1,5 @@
 import pandas as pd
-import mataplotlib.pyplot as plt
+import matplotlib.pyplot as plt
 
 df_mush = pd.read_csv("mushrooms.csv")
 # gráfico de barras con los porcentajes de habtitats diferentes
